@@ -5,10 +5,14 @@ Interpolating natural cubic splines using PyTorch. Includes support for:
 - Support for missing values (represent them as NaN)
 - Evaluating the first derivative of the spline
 
+## Modification from original implementation
+**This is a forked version from patrick-kidger and DexaiRobotics. 
+This repo merged DexaiRobotics's higher order derivatives into master and fixed the indentation error.**
+
 ## Installation
 
 ```bash
-pip install git+https://github.com/patrick-kidger/torchcubicspline.git
+pip install git+https://github.com/petrikvladimir/torchcubicspline.git
 ```
 
 ## Example
